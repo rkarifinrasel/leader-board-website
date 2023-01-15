@@ -1,0 +1,156 @@
+*{
+    border: 0;
+
+}
+/*common font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+body{
+    
+    font-family: 'Poppins', sans-serif;
+   background-color:burlywood;
+   width: 100%;
+
+}
+ul{
+    display: flex;
+    font-weight: 50px;
+}
+.color-text{
+    color: white;
+    margin-top: 30px;
+}
+ul li{
+    list-style: none;
+    margin: 5px 10px;
+   font-weight: 100px;
+   color: white;
+   margin-top: 30px;
+   gap: 20px;
+   
+}
+.menubar{
+    display: flex;
+    justify-content: space-around;
+}
+.idea{
+    display: flex;
+}
+.idea img{
+    height: 51px;
+    width: 51px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+    .frofile-information{
+        display: flex;
+
+    }
+    .menubar{
+        display: flex;
+    }
+
+header{
+   
+  margin-right: 20px;
+    Width:100%;
+    Height:94px;
+    background-color: #562EFF;
+}
+main{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.text-color{
+    color: blueviolet;
+}
+.container{
+    Width:870px;
+    Height:679px;
+    Top:130px;
+    Left:285px;
+    Radius:5px;
+    padding: 20px;
+    background-color:gray;
+  
+    justify-content: center;
+    align-items: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin-top: 20px;
+    grid-row-gap:20px ;
+    margin-bottom: 20px;
+  
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+hr{
+    border: 1px solid rebeccapurple;
+}
+.blog img{
+    Width:177px;
+Height:117px;
+Top:507px;
+Left:315px;
+}
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+    margin-top: 20px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.images img{
+    Width:200px;
+    Height:100px;
+    Top:913px;
+    Left:324px;
+}
+.last-part{
+    display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container-2{
+    Width:868px;
+Height:400px;
+Top:830px;
+Left:285px;
+padding: 20px;
+background-color: gray;
+}
+.icon{
+    display: flex;
+}
+.fa-star.feild{
+    height: 8px;
+    width: 15px;
+    color: yellow;
+}
+.timing{
+    margin-left: 8px;
+    margin-right: 8px;
+}
